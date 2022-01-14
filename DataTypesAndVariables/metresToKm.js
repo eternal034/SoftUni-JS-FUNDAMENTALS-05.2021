@@ -1,0 +1,6 @@
+function metresToKm(metres){
+    let km = metres / 1000;
+    console.log(km.toFixed(2));
+}
+
+metresToKm(1852);
